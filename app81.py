@@ -14,7 +14,7 @@ if sign== '/':
   sc=num1/num2
 st.title("أهلاً بك في لعبه الذكاء التابعه لمحمد رياض ")
 st.write(num1,sign,num2)
-number=st.st.session_state("أدخل الناتج ")
+number=st.session_state("أدخل الناتج ")
 if st.button("تأكيد التخمين "):
  if number==sc:
   st.success("اجابتك صحيحه  ")
