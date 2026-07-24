@@ -1,9 +1,11 @@
 import random
 import streamlit as st 
 num=0
-st.session_state.num1=random.randint(1,20)
-st.session_state.num2=random.randint(1,20)
-st.session_state.sign=random.choice(['+','-','*','/'])
+if 'num1' not in st.session_state:
+    st.session_state.num1 = random.randint(1, 20)
+    st.session_state.num2 = random.randint(1, 20)
+    st.session_state.sign = random.choice(['+', '-', '*', '/'])
+
 if sign== '+':
   sc=num1+num2
 if sign== '-':
