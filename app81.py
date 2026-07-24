@@ -18,8 +18,8 @@ number=st.number_input("أدخل الناتج ")
 if st.button("تأكيد التخمين "):
  if number==sc:
   st.success("اجابتك صحيحه  ")
-  else:
-  st.error("اجابتك خطأ")
+   else:
+    st.error("اجابتك خطأ")
 return ();
 
  
