@@ -21,8 +21,10 @@ if st.button("تأكيد التخمين "):
  else:
   st.error("اجابتك خطأ") 
 if st.button("اعاده الاختبار") :
-  return()
-
+  def mm():
+    return()
+ 
+ 
 
  
 
