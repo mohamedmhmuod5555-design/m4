@@ -20,7 +20,9 @@ if st.button("تأكيد التخمين "):
   st.success("اجابتك صحيحه  ")
  else:
   st.error("اجابتك خطأ")
- 
+   
+if st.button("اعاده الاختبار") :
+  return()
 
 
  
