@@ -18,8 +18,7 @@ number = st.number_input("أدخل الناتج", step=1.0)
 if st.button("تأكيد التخمين "):
  if number==sc:
   st.success("اجابتك صحيحه  ")
- else:
-  st.error("اجابتك خطأ") 
+
 if st.button("اعاده الاختبار") :
   def mm():
     return()
