@@ -1,8 +1,8 @@
 import random
 import streamlit as st 
 num=0
-num1=random.randint(1,20)
-num2=random.randint(1,20)
+st.session_state.num1=random.randint(1,20)
+st.session_state.num2=random.randint(1,20)
 sign=random.choice(['+','-','*','/'])
 if sign== '+':
   sc=num1+num2
